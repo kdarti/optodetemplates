@@ -1,1 +1,21 @@
-﻿
+﻿<OptodeTemplate ID="999" name="1 channel" group="99">
+    <description>1 channel using 1 Rx (1-end) and 1 Tx (1-end)</description>
+    <SubTemplate ID="1" name="Optode holder 1">
+      <DistanceScale>35</DistanceScale>
+      <RXOptode ID="1">
+        <RX_ID>1</RX_ID>
+        <X>0</X>
+        <Y>0</Y>
+        <SplitCharacter></SplitCharacter>
+      </RXOptode>
+      <TXOptode ID="1">
+        <TX_ID>1</TX_ID>
+        <X>1</X>
+        <Y>0</Y>
+      </TXOptode>
+    </SubTemplate>
+    <combination ID="1">
+      <RXOptodeID>1</RXOptodeID>
+      <TXOptodeID>1</TXOptodeID>
+    </combination>
+</OptodeTemplate>
